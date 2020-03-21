@@ -75,7 +75,7 @@
                             <li><i class="menu-icon fa fa-key"></i><a href="<?php echo base_url('administrator/ubahpassword') ?>">Ubah Password</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url('administrator/auth/logout') ?>"><i class="menu-icon fa fa-sign-out"></i>Logout</a></li>
+                    <li><a href="<?php echo base_url('auth/logout') ?>"><i class="menu-icon fa fa-sign-out"></i>Logout</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>

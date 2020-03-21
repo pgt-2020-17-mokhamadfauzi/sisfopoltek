@@ -12,7 +12,7 @@
 
                 <div class="login-form">
                     <?php echo $this->session->flashdata('pesan') ?>
-                    <form method="post" action="<?php echo base_url('administrator/auth/proses_login') ?>">
+                    <form method="post" action="<?php echo base_url('auth/proses_login') ?>">
                         <div class="form-group">
                             <label>Username</label>
                             <input name="username" type="text" class="form-control" placeholder="Username Anda">

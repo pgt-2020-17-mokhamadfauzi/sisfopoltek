@@ -29,7 +29,7 @@ class Login_model extends CI_Model{
 			}
 		}else{
 			$this->session->set_flashdata('pesan', 'Username dan Password Anda Salah');
-			redirect('administrator/auth');
+			redirect('auth');
 		}
 
 	}

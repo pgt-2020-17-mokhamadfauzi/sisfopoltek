@@ -35,7 +35,7 @@ class Ubahprofil extends CI_Controller{
 				'nim' => $id
 					);
 		$this->profil_model->update_data($where, $data, 'mahasiswa');
-		redirect('administrator/auth/logout');
+		redirect('auth/logout');
 	}
 
 }
